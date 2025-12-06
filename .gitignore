@@ -14,3 +14,4 @@ rulesetmcp.config.json
 # Internal development docs (contain personal project info)
 BUILD_SUMMARY.md
 QUICK_TEST.md
+test-mcp.js
