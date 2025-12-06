@@ -4,7 +4,7 @@
 
 import { readFile } from 'fs/promises';
 import { existsSync } from 'fs';
-import { resolve, dirname } from 'path';
+import { resolve, dirname, isAbsolute } from 'path';
 import { RulesetConfig, LoadedConfig } from './model/config.js';
 
 const CONFIG_FILENAMES = [
@@ -55,8 +55,8 @@ export async function loadConfig(configPath?: string): Promise<LoadedConfig> {
     basePath,
     projects: config.projects.map(project => ({
       ...project,
-      paths: project.paths.map(p => resolve(basePath, p)),
-      rulesPaths: project.rulesPaths.map(p => resolve(basePath, p)),
+      paths: project.paths.map(p => isAbsolute(p) ? p : resolve(basePath, p)),
+      rulesPaths: project.rulesPaths.map(p => isAbsolute(p) ? p : resolve(basePath, p)),
     })),
   };
 

@@ -4,11 +4,11 @@
       "id": "servicepro",
       "name": "ServicePRO (Roofing CRM)",
       "paths": [
-        "C:/Users/n8dan/Desktop/Apps/CRMTool"
+        "/mnt/c/Users/n8dan/Desktop/Apps/CRMTool"
       ],
       "rulesPaths": [
-        "C:/Users/n8dan/Desktop/Apps/CRMTool/rules",
-        "C:/Users/n8dan/Desktop/Apps/ProjectManager/ServicePRO"
+        "/mnt/c/Users/n8dan/Desktop/Apps/CRMTool/rules",
+        "/mnt/c/Users/n8dan/Desktop/Apps/ProjectManager/ServicePRO"
       ],
       "description": "Next.js roofing CRM with Supabase backend",
       "github_url": "https://github.com/n8daniels/CRMTool.git",
@@ -18,11 +18,11 @@
       "id": "glasir",
       "name": "Glasir",
       "paths": [
-        "C:/Users/n8dan/Desktop/Apps/Glasir"
+        "/mnt/c/Users/n8dan/Desktop/Apps/Glasir"
       ],
       "rulesPaths": [
-        "C:/Users/n8dan/Desktop/Apps/Glasir/rules",
-        "C:/Users/n8dan/Desktop/Apps/ProjectManager/Glasir"
+        "/mnt/c/Users/n8dan/Desktop/Apps/Glasir/rules",
+        "/mnt/c/Users/n8dan/Desktop/Apps/ProjectManager/Glasir"
       ],
       "description": "Glasir project",
       "enabled": true
@@ -31,17 +31,17 @@
       "id": "rulesetmcp",
       "name": "RulesetMCP",
       "paths": [
-        "C:/Users/n8dan/Desktop/Apps/RulesetMCP"
+        "/mnt/c/Users/n8dan/Desktop/Apps/RulesetMCP"
       ],
       "rulesPaths": [
-        "C:/Users/n8dan/Desktop/Apps/RulesetMCP/rules"
+        "/mnt/c/Users/n8dan/Desktop/Apps/RulesetMCP/rules"
       ],
       "description": "Weight-On-Wheels for AI - MCP server for project rules",
       "enabled": true
     }
   ],
   "defaultProjectId": "servicepro",
-  "basePath": "C:/Users/n8dan/Desktop/Apps",
+  "basePath": "/mnt/c/Users/n8dan/Desktop/Apps",
   "logging": {
     "level": "info"
   }
