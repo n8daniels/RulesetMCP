@@ -10,3 +10,7 @@ dist/
 
 # User-specific config (keep your personal config private!)
 rulesetmcp.config.json
+
+# Internal development docs (contain personal project info)
+BUILD_SUMMARY.md
+QUICK_TEST.md

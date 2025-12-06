@@ -11,19 +11,20 @@ Think of it as **"Weight-On-Wheels" for AI** - once enabled, AI agents are groun
 ### 1. Install RulesetMCP
 
 ```bash
-cd /mnt/c/Users/n8dan/Desktop/Apps/RulesetMCP
+npm install -g rulesetmcp
+```
+
+Or from source:
+```bash
+git clone https://github.com/n8daniels/RulesetMCP.git
+cd RulesetMCP
 npm install
 npm run build
 ```
 
-Or globally:
-```bash
-npm install -g rulesetmcp
-```
-
 ### 2. Create Your First Rule File
 
-In your project (e.g., `/mnt/c/Users/n8dan/Desktop/Apps/CRMTool/rules/RULES.md`):
+In your project (e.g., `./rules/RULES.md`):
 
 ```markdown
 # My Project - Rules
@@ -100,7 +101,7 @@ Once configured, AI assistants can:
 ```
 AI: What projects have rules defined?
 Tool: list_projects
-Result: ServicePRO, Glasir, RulesetMCP
+Result: my-api, my-frontend, my-backend
 ```
 
 ### Query Rules Before Coding
@@ -130,9 +131,9 @@ AI: "Found 2 violations:
 ```
 You: "I need to add user authentication"
 AI: [Calls summarize_rules_for_task]
-AI: "For authentication in ServicePRO:
-     - Use Supabase Auth SSR (@supabase/ssr)
-     - Enable RLS on user tables
+AI: "For authentication in your project:
+     - Use your configured auth provider
+     - Enable proper access controls
      - Never store passwords in plain text
      ..."
 ```
@@ -325,7 +326,7 @@ git commit -m "Add RLS security rule"
 ```
 You: "I just updated the SQL rules"
 AI: [Calls reload_rules]
-AI: "Reloaded 12 rules for ServicePRO"
+AI: "Reloaded 12 rules for my-project"
 ```
 
 ## Troubleshooting
