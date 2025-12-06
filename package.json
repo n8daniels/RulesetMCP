@@ -1,0 +1,38 @@
+{
+  "name": "rulesetmcp",
+  "version": "0.1.0",
+  "description": "Weight-On-Wheels for AI: MCP server that keeps every agent grounded in your project's rules",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "rulesetmcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "ai",
+    "rules",
+    "standards",
+    "code-quality",
+    "claude",
+    "anthropic"
+  ],
+  "author": "n8daniels",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.3.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

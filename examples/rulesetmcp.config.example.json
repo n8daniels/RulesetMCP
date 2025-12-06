@@ -1,0 +1,16 @@
+{
+  "projects": [
+    {
+      "id": "nodejs-api",
+      "name": "Node.js API Example",
+      "paths": ["./examples/nodejs-api"],
+      "rulesPaths": ["./examples/nodejs-api/rules"],
+      "description": "Example Node.js REST API project with TypeScript standards",
+      "enabled": true
+    }
+  ],
+  "defaultProjectId": "nodejs-api",
+  "logging": {
+    "level": "info"
+  }
+}
