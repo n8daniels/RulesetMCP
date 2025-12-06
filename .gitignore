@@ -7,3 +7,6 @@ dist/
 .env
 .vscode/
 .idea/
+
+# User-specific config (keep your personal config private!)
+rulesetmcp.config.json
