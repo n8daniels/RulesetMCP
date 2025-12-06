@@ -107,7 +107,7 @@ Result: my-api, my-frontend, my-backend
 ### Query Rules Before Coding
 ```
 You: "Refactor this SQL stored procedure"
-AI: [Calls get_rules for project="servicepro", area="sql"]
+AI: [Calls get_rules for project="my-api", area="sql"]
 AI: "Based on your SQL rules, I'll ensure:
      - UPPER-CASE keywords
      - Proper RLS policies
