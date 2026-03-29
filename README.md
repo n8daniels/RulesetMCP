@@ -16,6 +16,10 @@ Right now you probably:
 
 **RulesetMCP acts like a "Weight-On-Wheels" switch for AI assistants**: once your rules are loaded, every action is grounded in them. This keeps your rewrites, refactors, and new features aligned with the architecture and process decisions you've already made.
 
+## Hosted deployment
+
+A hosted deployment is available on [Fronteir AI](https://fronteir.ai/mcp/n8daniels-rulesetmcp).
+
 ## Features
 
 - 🔍 **Project discovery** via `list_projects`
